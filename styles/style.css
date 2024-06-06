@@ -48,6 +48,7 @@
 }
 .image{
     display: flex;
+    justify-content: space-between;
 }
 .img-text, h3{
     font-size: 80px;
@@ -71,12 +72,122 @@
     margin-left: 8px;
 }
 .watch-btn p{
-
     font-size: 14px;
     padding-top: -12px;
 }
-.image-bar, img{
+.image-bar img{
     margin-left: 350px;
     height: 438px;
     width: 556px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-row-gap: 30px;
+    padding: 30px;
+    justify-content: center;
+}
+.player img{
+    margin-left: 15px; 
+    margin-top: 8px;
+    height: 256px;
+    width: 300px; 
+}
+.palyer, .player-img{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #ffff;
+    box-shadow: 2px 3px 20px 5px rgb(190, 182, 182);
+    width: 330px;
+    height: 456px;
+}
+.player-details{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.player-details > h1{
+    margin-bottom: 5px;
+}
+.player-details p{
+    color: #6C6C6C;
+    padding-right: 15px;
+}
+.copa{
+    height: 120px;
+    width: 469px;
+    font-size: 60px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.pera{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/*------------------- 
+Complex
+---------------- */
+
+/* .watch-live{
+    display: flex;
+    height: 44px;
+    width: 164px;
+    background-color:#E02C6D;
+    text-align: center;
+    margin-top: 80px; 
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.watch-text{
+    margin-right: 10px;
+} */
+.second{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    height: 44px;
+    width: 164px;
+    background-color:#E02C6D;
+    text-align: center;
+    margin-top: 80px; 
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.high-img img{
+    height: 427px;
+    width: 567px;
+}
+.high-info{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+.highlights{
+    margin-top: 50px;
+}
+.ft-img{
+    height: 90px;
+    width: 263px;
+
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-icons img{
+    height: 32px;
+    width: 32px; 
+}
+.ft-pera{
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
 }
