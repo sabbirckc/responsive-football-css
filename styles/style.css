@@ -1,0 +1,82 @@
+*{ 
+    margin:0%;
+    padding: 0%;
+}
+.top-head{
+    background-color: #2D25A0;
+    height: 677px;
+}
+.nav-bar{ 
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    margin-left: 70px;
+    list-style: none;
+    display:flex;
+
+}
+.nav-menu, .log-in-text{
+    color: white;
+}
+.nav-menu li{
+    margin-left: 15px;
+    padding:10px;
+    font-size: 20px;
+}
+.log-in{
+    display: flex;
+    margin-right: 50px;
+    height: 44px;
+    width: 144px;
+    background-color: #E02C6D;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.icon{
+    color: white;
+    height: 24px;
+    width: 24px;
+}
+.log-in-text{
+    margin-top: -8px;
+}
+.cover{
+    margin-top: 30px;
+}
+.image{
+    display: flex;
+}
+.img-text, h3{
+    font-size: 80px;
+    padding-left: 70px;
+    color: white;
+}
+.watch-btn{
+    display: flex;
+    height: 44px;
+    width: 164px;
+    margin-left: 70px;
+    background-color:#E02C6D;
+    text-align: center;
+    margin-top: 15px; 
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.watch-btn i{
+    font-size: 20px;
+    margin-left: 8px;
+}
+.watch-btn p{
+
+    font-size: 14px;
+    padding-top: -12px;
+}
+.image-bar, img{
+    margin-left: 350px;
+    height: 438px;
+    width: 556px;
+}
